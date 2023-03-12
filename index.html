@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page - HTML CSS & JS</title>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <a href="#">
+        <div class="logo">
+          <i class="bx bxs-book-open bx-sm"></i>
+        </div>
+      </a>
+
+      <nav class="nav_menu" id="nav_menu">
+        <ul class="nav_menu_list">
+          <li class="nav_item">
+            <a href="#" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link">Courses</a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link">Service</a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link">Testimonials</a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="contact_btn">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="toggle_nav_btn" id="toggle_nav">
+        <i class="bx bx-menu bx-sm"></i>
+      </button>
+    </header>
+    <main class="container hero_wrapper">
+      <section class="hero">
+        <h1 class="hero_text">Learn from Experts, Achieve Your Goals</h1>
+        <p class="hero_subtext">
+          Welcome to our online learning platform where <br />
+          you can learn from the best experts in <br />
+          your field of interest.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#" class="btn start_learn">Start Learning today</a>
+          <a href="#stats" class="btn learn_more">Learn more</a>
+        </div>
+
+        <!-- ===== STUEDNTS =====  -->
+        <div class="students">
+          <div class="student_list">
+            <img
+              src="./assets/img/student-1.jpg"
+              alt="student-image"
+              class="student_img"
+            />
+            <img
+              src="./assets/img/student-2.jpg"
+              alt="student-image"
+              class="student_img"
+            />
+            <img
+              src="./assets/img/student-3.jpg"
+              alt="student-image"
+              class="student_img"
+            />
+            <img
+              src="./assets/img/student-4.jpg"
+              alt="student-image"
+              class="student_img"
+            />
+            <img
+              src="./assets/img/student-5.jpg"
+              alt="student-image"
+              class="student_img"
+            />
+            <img
+              src="./assets/img/student-6.jpg"
+              alt="student-image"
+              class="student_img"
+            />
+          </div>
+
+          <p class="students_stats_text">
+            <span>100,000+</span> students joined us last year !
+          </p>
+        </div>
+      </section>
+
+      <section class="hero_img_wrapper">
+        <img
+          src="./assets/img/a-girl-holding-books.png"
+          alt="a girl holding books"
+          class="hero_img"
+        />
+      </section>
+    </main>
+
+    <div class="container stats" id="stats">
+      <!-- ===== STAT ITEM - 1 =====  -->
+      <div class="stat_item">
+        <p class="stats_title">
+          Our numbers tell <br />
+          more about us
+        </p>
+      </div>
+      <!-- ===== STAT ITEM - 2 =====  -->
+      <div class="stat_item">
+        <p class="stats_title title--blue">6+</p>
+        <p class="stats_text">Total branches open in last year</p>
+      </div>
+      <!-- ===== STAT ITEM - 3 =====  -->
+      <div class="stat_item">
+        <p class="stats_title title--blue">50k</p>
+        <p class="stats_text">New Students in last 60 days</p>
+      </div>
+      <!-- ===== STAT ITEM - 4 =====  -->
+      <div class="stat_item">
+        <p class="stats_title title--blue">15k+</p>
+        <p class="stats_text">Comments made by our students</p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
